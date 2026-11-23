@@ -1,0 +1,82 @@
+{
+  "nom_modele": "CAH",
+  "source": "Jeu de données vu en cours (wheat_seeds_dataset.csv)",
+  "colonnes": [
+    "area A",
+    "perimeter",
+    "compactness",
+    "length of kernel",
+    "width of kernel",
+    "asymmetry coefficient",
+    "length of kernel groove"
+  ],
+  "preprocess": {
+    "type": "identity"
+  },
+  "centroides": [
+    [
+      14.292749999999998,
+      14.295500000000004,
+      0.8770387499999999,
+      5.5175625,
+      3.2291000000000003,
+      2.9148399999999994,
+      5.1583
+    ],
+    [
+      18.61209677419355,
+      16.26096774193548,
+      0.8835870967741934,
+      6.195290322580644,
+      3.7065645161290317,
+      3.67258064516129,
+      6.058709677419356
+    ],
+    [
+      11.780000000000001,
+      13.206140350877197,
+      0.8481719298245617,
+      5.218842105263158,
+      2.836947368421052,
+      4.829070175438597,
+      5.094842105263156
+    ]
+  ],
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "noms_classes": {
+    "0": "Groupe 0",
+    "1": "Groupe 1",
+    "2": "Groupe 2"
+  },
+  "minimum": {
+    "area A": 10.59,
+    "perimeter": 12.41,
+    "compactness": 0.8081,
+    "length of kernel": 4.899,
+    "width of kernel": 2.63,
+    "asymmetry coefficient": 0.7651,
+    "length of kernel groove": 4.519
+  },
+  "maximum": {
+    "area A": 21.18,
+    "perimeter": 17.25,
+    "compactness": 0.9183,
+    "length of kernel": 6.675,
+    "width of kernel": 4.033,
+    "asymmetry coefficient": 8.315,
+    "length of kernel groove": 6.55
+  },
+  "mediane": {
+    "area A": 14.43,
+    "perimeter": 14.37,
+    "compactness": 0.8734,
+    "length of kernel": 5.541,
+    "width of kernel": 3.245,
+    "asymmetry coefficient": 3.631,
+    "length of kernel groove": 5.228
+  }
+}
